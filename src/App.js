@@ -1,8 +1,16 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
+
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello Mohaimin</h1>
+      <Navbar />
+      <Hero />
+
+
     </div>
   );
 }

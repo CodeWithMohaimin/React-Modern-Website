@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    background-color: #99f;
+}
+.navBox{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.navLogo{
+    margin-left: 10px;
+    color: #333;
+}
+.navLink{
+    margin-right: 10px;
+}
+.navLink a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0 7px;
+    font-size: 18px;
+    padding: 9px 15px;
+    font-weight: 500;
+    color: rgb(78, 78, 78);
+}
+
+/* image section  */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px;
+    min-height: 700px;
+}
+.heroText h1{
+    font-size: 52px;
+    color: rgb(126, 126, 203);
+    margin: 10px 0;
+}
+.para{
+    font-size: 20px;
+    color: rgb(54, 57, 61);
+}
+.para2{
+    color: rgb(130, 142, 171);
+    margin: 30px 0;
+    font-size: 17px;
+    letter-spacing: .5px;
+}
+#btn{
+    padding: 10px 30px;
+    background-color: #99f;
+    color: #333;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.heroImage img{
+    width: 100%;
+    height: auto;
+}
